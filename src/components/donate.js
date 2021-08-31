@@ -52,11 +52,10 @@ const Donate = () => {
                 </Link>
                 <div className="navBar">
                     <nav style={{ float: 'right' }}>
-                        <button className="bttn-stretch bttn-sm">Adopt</button>
-                        <button className="bttn-stretch bttn-sm">New Post</button>
-                        <button className="bttn-stretch bttn-sm">Contact</button>
-                        <Link to="/register"><button className="bttn-stretch bttn-sm">Sign Up</button></Link>
-                        <Link to="/login"><button className="bttn-stretch bttn-sm" >Login</button></Link>
+                        <Link to="/newpost"><button className="navButton">New Post</button> </Link>
+                        <Link to="/contact"><button className="navButton">Contact</button> </Link>
+                        <Link to="/register"><button className="navButton">Sign Up</button></Link>
+                        <Link to="/login"><button className="navButton" >Login</button></Link>
 
                     </nav>
                 </div>

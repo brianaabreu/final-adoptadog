@@ -10,7 +10,7 @@ const Contact = () => {
     return (
         <div>
             <Header />
-            <div style={{ paddingTop: '50px', paddingBottom: '50px', textAlign: 'center', borderTop:'1px solid grey' }}>
+            <div style={{ paddingTop: '50px', paddingBottom: '50px', textAlign: 'center', borderTop:'1px solid grey', textAlign:' -webkit-center'}}>
                 <Form className="contactWrapper" >
                     <h1 style={{ color: 'black' }}>Contact Us</h1>
                     <FormGroup>

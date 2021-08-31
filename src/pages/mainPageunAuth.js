@@ -18,9 +18,9 @@ function MainPageUnauth() {
                 </Link>
                 <div className="navBar">
                     <nav style={{ float: 'right' }}>
-                        <Link to="/register"><button className="bttn-stretch bttn-sm">Sign Up</button></Link>
-                        <Link to="/login"><button className="bttn-stretch bttn-sm" >Login</button></Link>
-                        <Link to="/contact"><button className="bttn-stretch bttn-sm" >Contact</button></Link>
+                        <Link to="/register"><button className="navButton">Sign Up</button></Link>
+                        <Link to="/login"><button className="navButton" >Login</button></Link>
+                        <Link to="/contact"><button className="navButton" >Contact</button></Link>
 
 
                     </nav>
