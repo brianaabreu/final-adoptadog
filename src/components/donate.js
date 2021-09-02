@@ -56,15 +56,11 @@ const Donate = () => {
                         <Link to="/contact"><button className="navButton">Contact</button> </Link>
                         <Link to="/register"><button className="navButton">Sign Up</button></Link>
                         <Link to="/login"><button className="navButton" >Login</button></Link>
-
                     </nav>
                 </div>
             </div>
             <div classname="donateWrap" style={{ textAlign: '-webkit-center' }}>
-                <img src={face1} style={{
-                    width: '18%',
-                    marginBottom: '-43px'
-                }} />
+                <img className="peekDog" src={face1}/>
                 <div className="formWrapper">
                     <Form>
                         <FormGroup>
@@ -72,6 +68,7 @@ const Donate = () => {
                             <Input
                                 type="text"
                                 name="text"
+                                className="donateInput"
                                 placeholder="Whats your name?"
                                 onChange={(e) => {
                                     setDonationName(e.target.value);

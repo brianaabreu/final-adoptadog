@@ -58,7 +58,7 @@ function Login() {
                     </nav>
                 </div>
             </div>
-            <div style={{ textAlign: '-webkit-center', marginTop: '-60px', marginBottom: '60px' }}>
+            <div style={{ textAlign: '-webkit-center', marginTop: '0px', marginBottom: '50px' }}>
 
                 {loginStatus ?
                     <Alert style={{ width: '30%' }} color="danger">
@@ -89,13 +89,15 @@ function Login() {
                             setPassword(e.target.value);
                         }} />
                     <div className="footerRegister">
+                        <div>
 
                         <button onClick={login} >Login</button>
+                        </div>
 
 
 
                         <div>
-                            Don't have an account  <Link to="/register"><a href="">Register!</a></Link>
+                            Don't have an account?  <Link to="/register"><a href="">Register!</a></Link>
                         </div>
                     </div>
                 </div>

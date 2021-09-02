@@ -10,19 +10,19 @@ const Contact = () => {
     return (
         <div>
             <Header />
-            <div style={{ paddingTop: '50px', paddingBottom: '50px', textAlign: 'center', borderTop:'1px solid grey', textAlign:' -webkit-center'}}>
+            <div className="contactPage">
                 <Form className="contactWrapper" >
                     <h1 style={{ color: 'black' }}>Contact Us</h1>
                     <FormGroup>
-                        <Label for="Name">Name</Label>
+                        <Label className="label" for="Name">Name</Label>
                         <Input type="name" name="name" id="name" placeholder="Whats your name?" />
                     </FormGroup>
                     <FormGroup>
-                        <Label for="email">Email</Label>
+                        <Label className="label"  for="email">Email</Label>
                         <Input type="email" name="email" id="email" placeholder="Email" />
                     </FormGroup>
                     <FormGroup>
-                        <Label for="message">Message</Label>
+                        <Label className="label"  for="message">Message</Label>
                         <Input type="textarea" name="text" id="exampleText" placeholder="Your message here" />
                     </FormGroup>
                     <Button style={{ marginTop: '25px', width: '50%' }}>Submit</Button>

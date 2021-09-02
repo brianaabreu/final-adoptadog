@@ -89,7 +89,7 @@ const NewPost = () => {
                             <option>Rescue</option>
                         </Input>
                     </FormGroup>
-                    <Button onClick={posts} style={{ marginTop: '25px', width: '50%' }}>Create Post</Button>
+                    <Button className="createPostBtn" onClick={posts}>Create Post</Button>
                 </Form>
 
             </div>

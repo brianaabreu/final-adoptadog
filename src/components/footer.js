@@ -16,7 +16,7 @@ const MainFooter = () => {
                     <div classname="leftFooter" style={{display:"flex"}}>
                         <a href="#"><img src={Contact} alt="Contact" /> </a>
                         <a href="#"><img src={Twitter} alt="Twitter" /> </a>
-                        <a href="#"><img src={Donate} alt="Donate" style={{width:'60px'}} /> </a>
+                        <a href="#"><img src={Donate} className="hands" alt="Donate"  /> </a>
                         <a href="#"><img src={Facebook} alt="Facebook" /> </a>
                     </div>
                 </div>

@@ -193,6 +193,10 @@ h1 {
     width: 50px;
   }
 
+  .hands{
+    width: 60px;
+  }
+
 }
 
 .main-footerImg{
@@ -301,10 +305,69 @@ h1 {
 
 }
 
+.peekDog{
+  width: 18%;
+  margin-bottom: -43px;
+}
+
+.backgroundAbout{
+  background-color: rgb(240, 227, 212);
+  border-top: 1px solid grey;
+
+}
+
 .aboutWrapper {
   font-family: 'Ubuntu', sans-serif;
 
+  .MediaOne{
+    padding-top: 70px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+  }
+
+  .leftImage{
+    width: 400px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    box-shadow: 0 0 12px #000000;
+  }
+
+  .mediaBody{
+    margin-left:20px;
+  }
+
+  .MediaTwo{
+    margin-bottom: 50px;
+    margin-right: 50px;
+  }
+
+  .right{
+    text-align: end;
+    margin-right: 20px;
+  }
+
+  .rightImage{
+    width: 400px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    box-shadow:0 0 12px #000000 ;
+  }
+
+  .MediaThree{
+    padding-top: 70px;
+    margin-left: 50px;
+  }
+
 }
+
+.contactPage{
+  padding-top: 70px;
+  padding-bottom: 50px;
+  border-top:1px solid grey;
+  text-align: left;
+  text-align:-webkit-center;
+}
+
 
 .contactWrapper {
   width: 40%;
@@ -324,6 +387,11 @@ h1 {
 .postWrapper {
   width: 50%;
   align-self: center;
+
+  .createPostBtn{
+    width: 50%;
+    margin-top: 25px;
+  }
 }
 
 .navBar {
@@ -337,6 +405,468 @@ h1 {
     padding-bottom: 15px;
     transition: .3s ease;
     font-style: italic;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  .topPage {
+    background-color: rgb(240, 227, 212);
+    display: flex;
+    flex-direction: column;
+.pictureLeft {
+  width: 80%
+}
+  }
+  
+  .headContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(177, 137, 85, 0.377);
+  }
+  
+  .logo {
+    margin: 30px;
+    margin-bottom: -50px;
+    padding: 0;
+  }
+  
+  .navBar {
+    button {
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  
+  }}
+
+  .navBar {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .navBar {
+      nav {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    float: none;
+    font-size: 10px;
+    display: contents;
+      }
+      nav a {
+        margin:0;
+        float: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-decoration: none;
+        font-size: 10px;
+      }
+  }
+  
+  .sloganRight {
+      align-self: center;
+    h1 {
+      text-align: center;
+      vertical-align: middle;
+      color: rgb(44, 25, 9);
+      font-family: 'Ubuntu', sans-serif;
+      font-weight: 400;
+      font-size: 45px;
+      margin-left:10px;
+      margin-top: 0px;
+      margin-right: 0px;
+    }
+    button {
+      justify-content: center;
+      align-content: center;
+      text-align: center;
+      align-self: center;
+      margin-bottom: 70px;
+    }
+  }
+  
+  .donateButton {
+      text-align: center;
+      margin:0;
+  
+      button {
+        color:rgb(61, 31, 11);
+        background-color: rgb(255, 255, 255);
+        outline: none;
+        border: none;
+        font-size: 15px;
+        border-radius: 3px;
+        padding: 10px;
+        font-family: 'Ubuntu', sans-serif;
+        transition: .3s;
+      }:hover{
+        background-color:rgb(100, 54, 17);
+        color: rgb(252, 248, 248);
+        cursor: pointer;
+      }
+  }
+  
+  
+  .midWrapper {
+    background-color: rgba(253, 231, 205, 0.59);
+    display: grid;
+    grid-template-columns: none;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 50%;
+    margin: 0 auto;
+    padding: 0;
+    place-content: center;
+  }
+
+  .dogCard{
+    height: 200px;
+  }
+  
+  .main{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0 auto;
+  }
+  
+  h1 {
+      font-size: 24px;
+      font-weight: 400;
+      text-align: center;
+      color: #55301a;
+  }
+  
+  .btn {
+    color: #55301a;
+    padding: 0.8rem;
+    font-size: 14px;
+    border-radius: 4px;
+    font-weight: 400;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    border: 1px solid rgba(117, 117, 117, 0.74);
+    background: transparent;
+    transition: .3s;
+  }
+  
+  .btn:hover {
+    background-color: rgba(214, 90, 8, 0.712);
+    color: white;
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    
+    width: 80%;
+
+  }
+  
+  .cards_item {
+    max-width: 320px;
+    display: flex;
+    padding: 1rem;
+    color: #55301a;
+  
+  }
+  
+  .card {
+    background-color: rgba(255, 102, 0, 0.486);
+    border-radius: 0.25rem;
+    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  .card_content {
+    padding: 1rem;
+  }
+  
+  .card_title {
+    color: #55301a;
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin: 0px;
+  }
+  
+  .card_text {
+    color: #55301a;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    margin-bottom: 1.25rem;    
+    font-weight: 400;
+  }
+  
+
+  
+  .mainfooter {
+    text-align: center;
+    border-top: 1px solid grey;
+  
+    .aboutlink{
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      justify-content: center;
+    }
+    
+    .leftFooter {
+      display: flex;
+    }
+    a{
+      border-radius: 5px;
+      display: flex;
+      justify-content: center;
+      padding: 8px 35px;
+      margin-bottom: 5px;
+  
+    }
+    img {
+      width: 20px;
+    }
+
+    .hands{
+      width: 30px;
+    }
+  
+  }
+  
+  .main-footerImg{
+    width: 190px;
+    margin-top: -50px;
+    display: none;
+  }
+  
+  .main-footerTitle {
+    font-size: 45px;
+    font-family: 'Ubuntu', sans-serif;
+  
+  }
+  
+  .linksFooter {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .Registration {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    color: black;
+    border: .5px solid grey;
+    border-radius: 5px;
+    padding:  0 60px 60px;
+    
+    h1{
+      text-align: left;
+      font-size: 13px;
+      box-sizing: none;
+      color: rgb(0, 0, 0);
+      background-color: rgba(241, 241, 241, 0.644);
+      width: 100%;
+      align-self: center;
+      padding:  12px  60px 12px;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      margin-bottom: 15px;
+      height: 50%;
+    }
+  
+    input{
+      padding: 10px;
+      border: none;
+      border-bottom: 1px solid grey;
+      outline: none;
+      margin-bottom: 20px;
+    }
+  
+    button {
+      padding: 10px;
+      color: rgb(0, 0, 0);
+      background-color: rgba(241, 241, 241, 0.644);
+      border: 1px rgb(172, 172, 172) solid;
+      border-radius: 4px;
+      transition: .3s;
+      width: 100%; 
+      font-size: 13px;
+      margin-right: 160px;
+      margin-bottom: 20px;
+    }
+    button:hover{
+      color: rgb(0, 0, 0);
+      background-color: rgba(226, 226, 226, 0.644);    color:black;
+      cursor: pointer;
+    }
+  }
+  
+  .footerRegister {
+    display: flex;
+    flex-direction: column;
+  
+    div {
+      align-self: center;
+      font-size: 13px;
+      float: none;
+    }
+    a{
+      text-decoration: none;
+      color:blue;
+    }
+  }
+  
+  .formWrapper {
+    width: 80%;
+    border: 1px solid rgb(180, 177, 177);
+    border-radius: 5px;
+    padding: 40px;
+    margin-bottom: 100px;
+    background-color: white;
+    button {
+      color: rgb(0, 0, 0);
+      background-color: rgba(241, 241, 241, 0.644);
+      border: 1px rgb(172, 172, 172) solid;
+      
+    }
+    button:hover{
+      background-color: rgba(226, 226, 226, 0.644);    
+      color:black;
+      cursor: pointer;
+    }
+
+    .donateInput{
+      width: 90%;
+    }
+  }
+  
+  .donateWrap {
+    background-color: rgb(240, 227, 212);
+    text-align: center;
+   overflow: hidden; 
+  }
+
+  .peekDog{
+    width: 35%;
+    margin-bottom: -20px;
+  }
+  
+
+  .aboutWrapper {
+    font-family: 'Ubuntu', sans-serif;
+  
+    .MediaOne{
+      padding-top: 20px;
+      margin-bottom: 20px;
+      margin-left: 0px;
+      text-align:center;
+      font-size: 13px;
+
+      margin: 25px;
+    }
+  
+    .leftImage{
+      width: 200px;
+      margin-bottom: 20px;
+      margin-left: 0px;
+      box-shadow: 0 0 12px #000000;
+    }
+  
+    .mediaBody{
+      margin-left:20px;
+    }
+  
+    .MediaTwo{
+      margin-bottom: 50px;
+      margin-right: 00px;
+    }
+  
+    .right{
+      text-align:center;
+      font-size: 13px;
+
+      margin: 25px;
+    }
+  
+    .rightImage{
+      width: 200px;
+      margin-bottom: 20px;
+      margin-left: 0px;
+      box-shadow:0 0 12px #000000 ;
+    }
+  
+    .MediaThree{
+      padding-top: 0px;
+      margin: 25px 25px 0 25px;
+      text-align:center;
+      font-size: 13px;
+      
+    }
+  
+  }
+
+  .contactPage{
+    padding-top: 70px;
+    padding-bottom: 50px;
+    border-top:1px solid grey;
+    text-align: center;
+    text-align:-webkit-center;
+  }
+  
+  
+  
+  .contactWrapper {
+    width: 80%;
+    border: 1px solid rgb(194, 193, 193);
+    padding: 10px;
+    border-radius: 8px;
+  
+    h1{
+      text-align: center;
+      font-size: 20px;
+      box-sizing: none;
+      color: rgb(0, 0, 0);
+      margin-bottom: 35px;
+    }
+    
+    label{
+      text-align: left;
+    }
+  }
+  
+  .postWrapper {
+    width: 80%;
+    align-self: center;
+
+    .createPostBtn{
+      width: 100%;
+      margin-top: 25px;
+    }
+  }
+  
+  .navBar {
+  
+    .navButton{
+      background: none;
+      outline: none;
+      border: none;
+      font-size: 15px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      transition: .3s ease;
+      font-style: italic;
+    }
+  
   }
 
 }
