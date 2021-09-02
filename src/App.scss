@@ -255,7 +255,7 @@ h1 {
     border: 1px rgb(172, 172, 172) solid;
     border-radius: 4px;
     transition: .3s;
-    width: 30%; 
+    width: 100%; 
     font-size: 13px;
     margin-right: 50px;
   }
@@ -272,6 +272,7 @@ h1 {
   div {
     align-self: flex-end;
     font-size: 13px;
+    margin-right:20px;
     float: right;
   }
   a{

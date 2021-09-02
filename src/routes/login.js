@@ -75,7 +75,7 @@ function Login() {
                 display: 'flex', justifyContent: 'center', alignItems: 'center'
             }} >
                 <div className="Registration" >
-                    <h1 style={{ marginTop: 0, boxSizing: 'unset', fontWeight: '400' }} >Login!</h1>
+                    <h1 className="loginhead" style={{ marginTop: 0, boxSizing: 'unset', fontWeight: '400' }} >Login!</h1>
                     <label>Username</label>
                     <input
                         type="text"
